@@ -109,7 +109,7 @@ def handle_message(message):
                 total_income += amt
             else:
                 expenses_by_topic[t_name] = expenses_by_topic.get(t_name, 0) + amt
-              total_expenses = sum(expenses_by_topic.values())
+                total_expenses = sum(expenses_by_topic.values())
 
         report = "🎉 ГОДОВОЙ ИТОГ РАСХОДОВ И ДОХОДОВ 🎉\n\n"
         report += f"📥 Всего дали денег: {total_income:.2f}\n"
